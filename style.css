@@ -1,0 +1,63 @@
+body {
+    margin: 5% 30%;
+    padding: 2rem;
+    background-color: rgb(215, 215, 215);
+    
+}
+
+form {
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 1.5rem;
+    background: #fff;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 16px;
+}
+
+.details label {
+    min-width: 120px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+    height: 38px;
+    width: 220px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    text-align: center;
+    font-size: 15px;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 14px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 12px;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button
+{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(195, 254, 255);
+}
